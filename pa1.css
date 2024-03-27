@@ -1,0 +1,234 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+}
+body{
+   background-color: black;
+   color: white;
+}
+span{
+   color:red;
+}
+#pa1{
+   background-image:url("pavank.jpg"); 
+   background-size:cover;
+   background-position:center;
+   height:130vh;
+   width:99%;
+   box-shadow:5px 5px 5px grey;
+   padding:30px;
+}
+h1{
+   color:white;
+}
+nav{
+   display:flex;
+   justify-content:space-between;
+   align-items:center ;
+   flex-wrap:wrap;
+   padding-top:1px;
+}
+nav ul li{
+   display:inline-block ;
+   margin:0px 0px 0px 10px;
+   padding-left:6px;
+   padding-top:2px;
+   padding-right:55px;
+}
+
+nav ul li a{
+   text-decoration:none;
+   color:white;
+   position:relative ;
+}
+nav ul li a::after{
+   position:absolute;
+   width:0%;
+   height:2px;
+   left:0;
+   bottom:-5px;
+   content: " ";
+   transition:0.5s;
+   background:red;
+}
+nav ul li a:hover::after{
+   width:100%;
+}
+.pa4{
+   margin-top:15%;
+}
+p{
+   font-size: 30px;
+   color:white;
+}
+h3{
+   font-size: 26px;
+   color:white;
+}
+.a1 button{
+   font-size:20px;
+   border-radius:20px;
+ height:5%;
+   width:30%;
+   color:black;
+   margin-left:22em;
+   box-shadow:6px 6px 3px grey;
+   text-shadow:2px  2px 2px red;
+   border-style: none;
+}
+.a1 button:hover{
+   background-color: yellow;
+   color: black;
+}
+.a2 button{
+   border-radius:15px;
+   height:200px;
+   width:500px;
+   margin-left:22em;
+   font-size:18px;
+   box-shadow:6px 6px 4px grey;
+   background: transparent;
+   color: white;
+}
+.a2 button:hover{
+   background-color: #3838d1;
+   color: black;
+}
+/*#about{
+   border-style:solid;
+   height:20em;
+   padding-top:20px;
+   border-radius:15px;
+   box-shadow:6px 6px 4px grey;
+   background-color:black;
+}*/
+.sk1 button{
+   font-size:20px;
+   border-radius:20px;
+ height:8%;
+   width:30%;
+   color:black;
+   margin-left:22em;
+   box-shadow:6px 6px 3px grey;
+   font-family:italic ;
+   text-shadow:2px 2px 2px red;
+}
+.img{
+   border-radius:50%;
+   width:130px;
+   height:130px;
+   padding:10px;
+}
+#sk2{
+   display:flex;
+   gap:40px;
+   margin-left: 28.5em;
+}
+.sk1 button:hover{
+   background-color: yellow;
+
+}
+.img1{
+   border-style:solid ;
+   border-radius:50%;
+   width:150px;
+   height:150px;
+   box-shadow:6px 6px 4px grey;
+   
+   
+}
+.p1{
+   background-color:yellow ;
+   display:flex;
+   height:180px;
+   padding-top:20px;
+   gap:15px;
+   border-radius:10px;
+   box-shadow:6px 6px 5px grey;
+   width:300px;
+}
+.hi{
+   border-radius:10px;
+   box-shadow:6px 6px 5px grey;
+}
+h2{
+   color:red;
+   text-shadow:2px 2px 2px black;
+}
+.p1 button{
+   font-size:5px;
+   border-radius:20px;
+ height:9%;
+   width:80%;
+   color:black;
+   margin-left:15px;
+   box-shadow:6px 6px 3px grey;
+   text-shadow:1px  1px 2px red;
+}
+.p1 h4{
+   margin-left:15px;
+   margin-top:20px;
+   color: black;
+}
+#pro{
+   display:flex;
+   gap:15px;
+}
+#con button{
+   font-size:20px;
+   border-radius:20px;
+ height:8%;
+   width:50%;
+   color:black;
+   margin-left:80px;
+   box-shadow:6px 6px 3px grey;
+   font-family:italic ;
+   text-shadow:2px 2px 2px red;
+   border-style: none;
+}
+#con button:hover{
+   background-color: yellow;
+   color: black;
+}
+#id{
+   border-radius:15px;
+   margin-left:80px;
+}
+h5{
+   border-style:solid ;
+   width:300px;
+   height:150px;
+   border-radius:15px;
+   padding:3px;
+}
+#send{
+   border-radius:20px;
+   height:8%;
+   width:30%;
+   margin-left:80px;
+   color:white;
+   background-color:blue;
+}
+#project h1{
+   color:Blue ;
+margin-left:18em;
+margin-top:0.5em;
+text-shadow:2px 2px 2px black;
+}
+#project h2{
+   margin-left:2em;
+}
+#pro{
+   margin-left: 2em;
+}
+.left{
+   margin-left: 25em;
+   border:1px solid grey;
+   width: 30em;
+   border-radius: 5%;
+   padding: 10px;
+}
+#id input{
+   width: 20em;
+}
