@@ -55,7 +55,7 @@ nav ul li a::after{
 nav ul li a:hover::after{
    width:100%;
 }
-.pa4{
+#home{
    margin-top:15%;
 }
 p{
